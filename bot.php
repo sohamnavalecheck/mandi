@@ -16,7 +16,7 @@
     }
 
 elseif (strpos($message, "/cmds") === 0){
-sendMessage($chatId, "<u>Bin lookup:</u> <code>/bin</code> xxxxxx%0A<u>Info:</u> <code>/info</code> To know ur info%0A%0A<b>Bot Made by: Soham Navale @sohamnavale1</b>", $message_id);
+sendMessage($chat_id, "<u>Bin lookup:</u> <code>/bin</code> xxxxxx%0A<u>Info:</u> <code>/info</code> To know ur info%0A%0A<b>Bot Made by: Soham Navale @sohamnavale1</b>", $message_id);
 }
 
 //Bin Lookup
